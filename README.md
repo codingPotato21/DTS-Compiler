@@ -16,17 +16,17 @@ The script accepts the following command-line arguments:
 
 1. Preprocess a DTS file and generate a DTB file:
    ```
-   ./script.sh -i input_filename.dts -o dtb
+   ./makedtb -i input_filename.dts -o dtb
    ```
 
 2. Preprocess a DTS file and generate a DTBO file:
    ```
-   ./script.sh -i input_filename.dts -o dtbo
+   ./makedtb -i input_filename.dts -o dtbo
    ```
 
 3. Preprocess a DTS file and keep it as DTS:
    ```
-   ./script.sh -i input_filename.dts -o dts
+   ./makedtb -i input_filename.dts -o dts
    ```
 
 ## Requirements
